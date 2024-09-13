@@ -17,3 +17,14 @@ $windows = @(
 
 As example of the first item of the array, it opens a Explorer Window on "C:\" at pixel position of TOP 0, Left 100px and with WIDTH of 800px, HEIGHT of 600px.
 Can be added more Explorer Windows to the array and arranged as your wish.
+
+## Delete recursive in MS Teams.ps1
+
+This script helps delete all files in a Teams folder. Doing this in Teams is tedious if you have multiple folders and files, it have to be deleted page by page.
+With this script you can delete all folder in one time.
+
+As example, this deletes the folder **test** inside **Documents**
+```
+$SiteURL = "https://sos-admins.sharepoint.com/personal/spo_oky_sos-admins_com" 
+$FolderSiteRelativeURL = "/personal/spo_oky_sos-admins_com/Documents/test"
+```
