@@ -28,3 +28,17 @@ As example, this deletes the folder **test** inside **Documents**
 $SiteURL = "https://sos-admins.sharepoint.com/personal/spo_oky_sos-admins_com" 
 $FolderSiteRelativeURL = "/personal/spo_oky_sos-admins_com/Documents/test"
 ```
+
+## /audio/Extract Audio from videos.ps1
+
+This is a script to extract audio from videos in a directory without encoding and using ffmpeg
+
+just need to change the variables to your need
+
+```
+$inputDir = "C:\path\to\your\input\directory"
+$outputDir = "C:\path\to\your\output\directory"
+....
+$ffmpegPath = "C:\path\to\ffmpeg\bin\ffmpeg.exe"
+$outputExtension = ".mp3"
+```
